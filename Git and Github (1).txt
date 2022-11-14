@@ -1,0 +1,55 @@
+Git nd Github
+
+
+What is Git?
+Git is a tool used to manage source code.
+Git is a open source version control system used to handle small and large projects efficiantly.
+It is used by developers to  work on their project and collab it with each other.
+
+What is version control system?
+
+A vcs have all the records of what we need changes in our project so we can specifically check what changes are made So if we need anyting later we can find it.
+It is also called source control.
+It uses a special kind of database to keep the track of the changes.
+Developers can compare the newer version with the older version ,So if anyting caused to our newer version we can redirect to the older version.
+
+
+Types of version control System?
+1.localized vcs
+2.centralized vcs
+3.Distributed vcs
+
+What is Github?
+Github is a website where we can host our projects.
+Github is a Web interface.
+It lets you and others work together on projects from anywhere.
+
+What is the features of Git?
+1:OpenSource--Git is open source so we can easily access it without paying a penny.
+2:Scalable--We can work on small as well as large projects with any number of users,The github will significantly manage any number of users.
+3:Branching and merging--We can easily make branches of our code So it will be suitable for other collaborator to use it,And we can easily merge our code with any other code.
+
+
+Git Commands---
+1.. $git clone URL ->this command is used to copy the date from GitHub to Local repository.
+2.. $git add filename --> This will add the file to the staging area 
+3.. $git commit --> it get that file from staging area and it will just commit it into remote repository
+4.. $git push -->git push will push the commited changes to remote server (gitHub).
+5.. $git status--> It is used to check the status of working repository by any point of git folder or file.\
+6.. $git init --> it initialize the local repository as a  git repository
+7.. $git pull--> it is used to get the committed change from remote repository to local repository
+7.. $git config-- global username -> it is used to add username in the remote repository
+8.. $git config-- global user.email-> it is used to add user's email in the remote repository
+9.. $git diff --> it shows the difference between your local changes and previous version of the file
+10..$git rm--cached <files> it is used to unsate a file
+11..$git branch--> it shows all the branches in the repository
+12..$git merge--> it will merge the specified branch into the corrent branch
+13..$git checkout -b branchname--> it will create the new branch
+14..$git checkout branchname -> it will use to switch between the branch
+15..$git add -a --> it will add all the files to staging area 
+16..$git log -->it will print all the commit 
+17..$git remote --> it create the local repository to remote server
+18..$git restore filename--> it will restore 
+19..$git show -->  it will show info about the commit and its associated patch
+20..$git branch -- merged --> it will show the branches will was alerdy merged
+21..$git revert --> it will undo the priveous  commit
