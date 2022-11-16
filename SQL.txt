@@ -1,0 +1,60 @@
+1.What is SQL?
+	SQL stands for Structured Query Language
+	SQL lets you access and manipulate databases
+	SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+
+2.However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.
+
+3.SQL keywords are NOT case sensitive: select is the same as SELECT
+In this tutorial we will write all SQL keywords in upper-case.
+
+4.Semicolon after SQL Statements?
+	Some database systems require a semicolon at the end of each SQL statement.
+
+	Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+
+	In this tutorial, we will use semicolon at the end of each SQL statement.
+
+5.Some of The Most Important SQL Commands
+	SELECT - extracts data from a database
+	UPDATE - updates data in a database
+	DELETE - deletes data from a database
+	INSERT INTO - inserts new data into a database
+	CREATE DATABASE - creates a new database
+	ALTER DATABASE - modifies a database
+	CREATE TABLE - creates a new table
+	ALTER TABLE - modifies a table
+	DROP TABLE - deletes a table
+	CREATE INDEX - creates an index (search key)
+	DROP INDEX - deletes an index
+
+6.The SQL SELECT Statement
+	The SELECT statement is used to select data from a database.
+
+	The data returned is stored in a result table, called the result-set.
+
+  SELECT Syntax
+	SELECT column1, column2, ...
+	FROM table_name;
+
+7.SELECT * Example:-
+	The following SQL statement selects all the columns from the "Customers" table:
+
+  Example:
+	SELECT * FROM Customers;
+
+8.The SQL SELECT DISTINCT Statement
+	The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+	Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+  SELECT DISTINCT Syntax:
+	SELECT DISTINCT column1, column2, ...
+	FROM table_name;
+
+9.The SQL WHERE Clause
+	The WHERE clause is used to filter records.
+
+	It is used to extract only those records that fulfill a specified condition
+
+10.
